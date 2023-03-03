@@ -1,3 +1,4 @@
+<jsp:useBean id="image" scope="request" type=""/>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 
@@ -45,7 +46,7 @@
 			</div>
 			<div class="state">
 				<h4>자기 소개입니다.</h4>
-				<h4>https://github.com/codingspecialist</h4>
+				<h4>https://github.com/dev-yeon/Eazyup-Photogram-master</h4>
 			</div>
 		</div>
 		<!--유저정보 및 사진등록 구독하기-->
@@ -66,7 +67,7 @@
 
 
 				<div class="img-box">
-					<a href=""> <img src="/images/home.jpg" />
+					<a href=""> <img src="<c:url value="/images/home.jpg"/>" />
 					</a>
 					<div class="comment">
 						<a href="#" class=""> <i class="fas fa-heart"></i><span>${image.likeCount}</span>

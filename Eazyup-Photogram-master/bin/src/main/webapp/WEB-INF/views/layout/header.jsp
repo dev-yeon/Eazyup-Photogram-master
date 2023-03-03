@@ -18,14 +18,14 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	
 	<!-- Style -->
-	<link rel="stylesheet" href="/css/style.css">
-	<link rel="stylesheet" href="/css/story.css">
-	<link rel="stylesheet" href="/css/popular.css">
-	<link rel="stylesheet" href="/css/profile.css">
-	<link rel="stylesheet" href="/css/upload.css">
-	<link rel="stylesheet" href="/css/update.css">
-	<link rel="shortcut icon" href="/images/insta.svg">
-	
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/css/story.css">
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/css/popular.css">
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/css/profile.css">
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/css/upload.css">
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/css/update.css">
+	<link rel="shortcut icon" href="${pageContext.request.contextPath}/images/insta.svg">
+
 	<!-- Fontawesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
 	<!-- Fonts -->
@@ -37,7 +37,7 @@
 	<header class="header">
 		<div class="container">
 			<a href="/image/story" class="logo">
-				<img src="/images/logo.jpg" alt="">
+				<img src="<c:url value="/images/logo.jpg"/>" alt="">
 			</a>
 			<nav class="navi">
 				<ul class="navi-list">

@@ -19,7 +19,7 @@
   height: 100vh;
   display: flex;
   justify-content: center;
-  background-color: rgba(var(--b3f, 250, 250, 250), 1);
+  background-color: rgba(var(--b3f,250,250,250),1);
 }
 
 /*모든 버튼은 포인터*/
@@ -50,7 +50,7 @@ button {
 .login__register {
   padding: 10px 0 20px;
   text-align: center;
-  border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+  border: 1px solid rgba(var(--b6a,219,219,219),1);
   background-color: #fff;
 }
 
@@ -66,7 +66,6 @@ button {
 .login__form h1 img {
   width: 175px;
 }
-
 /*로그인 인풋박스*/
 .login__input {
   display: flex;
@@ -75,13 +74,12 @@ button {
   margin-top: 24px;
   padding: 0 40px;
 }
-
 /*로그인 인풋태그*/
 .login__input input {
   width: 100%;
   height: 38px;
   padding: 9px 0 7px 8px;
-  border: 1px solid rgba(var(--ca6, 219, 219, 219), 1);
+  border: 1px solid rgba(var(--ca6,219,219,219),1);
   border-radius: 3px;
   margin-bottom: 6px;
 }
@@ -116,7 +114,7 @@ button {
 .login__horizon .br {
   width: 40%;
   height: 1px;
-  border-top: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+  border-top: 1px solid rgba(var(--b6a,219,219,219),1);
 }
 
 .login__horizon .or {

@@ -61,9 +61,11 @@
   margin-right: 30px;
 }
 .profile .profile-right .name-group .cta {
+  var(--ca6) :new var;
+  --ca6:219,219,219;
   margin-right: 10px;
   padding: 5px 9px;
-  border: 1px solid rgba(var(--ca6, 219, 219, 219), 1);
+  border: 1px solid rgba(var(--ca6), 1);
   border-radius: 4px;
   color: #262626;
   font-weight: bold;
@@ -154,7 +156,11 @@
   align-items: center;
 }
 .gallery .profileContainer .controller .con-list a {
-  color: rgba(var(--f52, 142, 142, 142), 1);
+var(--f52) :new var;
+  --f52:142,142,142;
+  border: 1px solid rgba(var(--ca6), 1);
+  color: rgba(var(--f52), 1);
+
   display: inline-block;
   height: 100%;
 }
@@ -380,14 +386,18 @@
 }
 
 .cta {
+  var(--ca6) :new var;
+  --ca6:219,219,219;
   margin-right: 10px;
   padding: 10px 10px;
-  border: 1px solid rgba(var(--ca6, 219, 219, 219), 1);
+  border: 1px solid rgba(var(--ca6), 1);
   border-radius: 4px;
   color: #262626;
   font-weight: bold;
   background: transparent;
 }
+
+
 .cta.blue {
   background: #0095f6 !important;
   color: #fff !important;

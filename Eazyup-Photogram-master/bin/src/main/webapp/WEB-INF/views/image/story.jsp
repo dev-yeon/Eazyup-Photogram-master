@@ -18,7 +18,7 @@
 				</div>
 
 				<div class="sl__item__img">
-					<img src="/images/home.jpg" />
+					<img src="<c:url value="/images/home.jpg">" />
 				</div>
 
 				<div class="sl__item__contents">
@@ -65,6 +65,6 @@
 		</article>
 	</section>
 </main>
-<script src="/js/story.js"></script>
+<script src="<c:url value="/js/story.js">"></script>
 </body>
 </html>

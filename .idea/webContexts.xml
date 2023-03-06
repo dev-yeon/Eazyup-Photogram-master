@@ -5,6 +5,7 @@
       <map>
         <entry key="file://$PROJECT_DIR$/Eazyup-Photogram-master/bin/src/main/webapp/WEB-INF/views/user/update.jsp" value="file://$PROJECT_DIR$/Eazyup-Photogram-master/bin/src/main/webapp/WEB-INF/views/user" />
         <entry key="file://$PROJECT_DIR$/Eazyup-Photogram-master/src/main/resources/static/css/profile.css" value="file://$PROJECT_DIR$/Eazyup-Photogram-master/bin" />
+        <entry key="file://$PROJECT_DIR$/Eazyup-Photogram-master/src/main/webapp/WEB-INF/views/auth/signin.jsp" value="file://$PROJECT_DIR$/Eazyup-Photogram-master/bin" />
       </map>
     </option>
   </component>
